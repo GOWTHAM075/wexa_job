@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = import.meta.env.VITE_API_URL;
+const API = "https://wexa-job-api.onrender.com";
 
 function App() {
   const [jobs, setJobs] = useState([]);
