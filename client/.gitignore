@@ -1,0 +1,9 @@
+# Environment
+.env
+*.env
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
